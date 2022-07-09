@@ -1,6 +1,8 @@
 ﻿// Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет количество чётных чисел в массиве.
 // [345, 897, 568, 234] -> 2
 
+Console.Clear();
+
 void FillArray(int[] array)
 {
     Random random = new Random();
@@ -40,7 +42,7 @@ void Zadacha34 ()
     PrintArray(array);
     
     Console.WriteLine();
-    EvenNumbers(array);
+    Console.WriteLine(EvenNumbers(array));
 }
 
 Zadacha34();
